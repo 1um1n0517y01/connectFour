@@ -9,4 +9,5 @@ Player can win with 4 coins connected horizontally, vertically or diagonally.
 How to run:
 Use index.html as starting point.
 Click on a column to drop a coin in it.
+
 Play with a friend. (Or play CS:GO or something more interesting than this thing, but check out my code.) 
