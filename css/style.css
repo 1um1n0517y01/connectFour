@@ -1,58 +1,58 @@
 body {
-  font-family:"Arial", sans-serif;
+  font-family: 'Arial', sans-serif;
 }
 
 .wrapper {
-  width:804px;
-  min-height:150px;
-  margin:0 auto;
+  width: 850px;
+  min-height: 150px;
+  margin: 0 auto;
 }
 
 .wrapper h1 {
-  width:160px;
-  margin:10px auto;
+  width: 160px;
+  margin: 10px auto;
 }
 
 .playerSelectDiv {
-  float:left;
-  margin:50px 15px;
+  float: left;
+  margin: 50px 15px;
 }
 
 .playerSelectDiv input {
-  width:147px;
+  width: 147px;
 }
 
 #teamSelectInfo {
-  margin:55px 80px;
+  margin: 55px 80px;
 }
 
 #btnSubmitDiv {
-  width:150px;
-  margin:0 auto;
+  width: 150px;
+  margin: 0 auto;
 }
 
 #btnSubmit {
-  width:150px;
-  padding:7px;
-  background:#00FA9A;
-  border:0;
-  transition:background .3s ease;
-  cursor:pointer;
+  width: 150px;
+  padding: 7px;
+  background: #00fa9a;
+  border: 0;
+  transition: background 0.3s ease;
+  cursor: pointer;
 }
 
 #btnSubmit:hover {
-  background:#90EE90;
-  transition:background .3s ease;
+  background: #90ee90;
+  transition: background 0.3s ease;
 }
 
 #team1 {
-  float:left;
-  text-align:center;
+  float: left;
+  text-align: center;
 }
 
 #team1 button {
-  border-radius:50%;
-  border:0;
+  border-radius: 50%;
+  border: 0;
   text-align: center;
   width: 90px;
   height: 90px;
@@ -61,20 +61,20 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background:#B22222;
+  background: #b22222;
   font-weight: 700;
-  font-size:25px;
-  color:#777;
+  font-size: 25px;
+  color: #777;
 }
 
 #team2 {
-  float:right;
-  text-align:center;
+  float: right;
+  text-align: center;
 }
 
 #team2 button {
-  border-radius:50%;
-  border:0;
+  border-radius: 50%;
+  border: 0;
   text-align: center;
   width: 90px;
   height: 90px;
@@ -83,33 +83,33 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background:#F0E68C;
+  background: #f0e68c;
   font-weight: 700;
-  font-size:25px;
-  color:#777;
+  font-size: 25px;
+  color: #777;
 }
 
 #currentPlayer1 {
-  float:left;
+  float: left;
 }
 
 #currentPlayer2 {
-  float:right;
+  float: right;
 }
 
 table {
-  margin-top:25px;
-  border:2px solid #000;
+  margin-top: 25px;
+  border: 2px solid #000;
 }
 
 table td {
-  border:1px solid #000;
-  padding:10px;
+  border: 1px solid #000;
+  padding: 10px;
 }
 
 table button {
-  border-radius:50%;
-  border:0;
+  border-radius: 50%;
+  border: 0;
   text-align: center;
   width: 90px;
   height: 90px;
@@ -119,38 +119,38 @@ table button {
   justify-content: center;
   align-items: center;
   font-weight: 700;
-  font-size:25px;
-  color:#777;
+  font-size: 25px;
+  color: #777;
 }
 
 button.red {
-  background: #B22222;
+  background: #b22222;
 }
 
 button.yellow {
-  background: #F0E68C;
+  background: #f0e68c;
 }
 
 .replay-container {
-  width:305px; 
-  height: 40px; 
-  margin:0 auto;
+  width: 305px;
+  height: 40px;
+  margin: 0 auto;
 }
 
-#replay, #changePlayers {
-  display:none;
-  width:150px;
-  height:40px;
-  margin:0px auto;
-  background:#E9967A;
-  border:0;
-  border-radius:1px;
-  transition:background .3s ease;
+#replay,
+#changePlayers {
+  display: none;
+  width: 150px;
+  height: 40px;
+  margin: 0px auto;
+  background: #e9967a;
+  border: 0;
+  border-radius: 1px;
+  transition: background 0.3s ease;
 }
 
-#replay:hover, #changePlayers:hover {
-  transition:background .3s ease;
-  background:#FFA07A;
+#replay:hover,
+#changePlayers:hover {
+  transition: background 0.3s ease;
+  background: #ffa07a;
 }
-
-
